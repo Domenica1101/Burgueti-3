@@ -36,8 +36,8 @@ const burgers = [
         id: 5,
         name: "BURGUETI",
         description: "Pan de papa, 150g de carne, mermelada de tocino, doble queso cheddar y aderezo especial[cite: 15].",
-        priceBurger: 4.00,
-        priceCombo: 5.25,
+        priceBurger: 4.50,
+        priceCombo: 5.75,
         image: burguetiImages.burgueti,
         badge: "MÁS VENDIDA"
     }
@@ -47,7 +47,7 @@ const burgers = [
 const extrasList = [
     { name: "Cola", price: 0.50, category: "Bebidas" },
     { name: "Agua", price: 0.50, category: "Bebidas" },
-    { name: "Papas Fritas", price: 1.00, category: "Acompañamientos" },
+    { name: "Papas Fritas", price: 1.25, category: "Acompañamientos" },
     { name: "Carne adicional", price: 1.25, category: "Extras" },
     { name: "Queso extra", price: 0.50, category: "Extras" },
     { name: "Tocino extra", price: 0.50, category: "Extras" },
@@ -101,8 +101,7 @@ function renderExtras() {
             <h3>Salsas de la Casa</h3>
             <div class="extra-item"><div class="extra-info"><span>BBQ Ahumada</span><strong>Incluida</strong></div></div>
             <div class="extra-item"><div class="extra-info"><span>Garlic Ranch</span><strong>Incluida</strong></div></div>
-            <div class="extra-item"><div class="extra-info"><span>Bacon Sauce</span><strong>Incluida</strong></div></div>
-            <div class="extra-item"><div class="extra-info"><span>Picante Especial</span><strong>Incluida</strong></div></div>
+            <div class="extra-item"><div class="extra-info"><span>De la casa</span><strong>Incluida</strong></div></div>
         </div>
         <div class="extra-card">
             <h3>Extras para tu Burger</h3>
