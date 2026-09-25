@@ -3,7 +3,7 @@ const burgers = [
     {
         id: 1,
         name: "HAWAIANA",
-        description: "Pan de orégano con mozzarella, 150g de carne, salsa de piña con tocino, lechuga, queso cheddar y salsa de la casa[cite: 15].",
+        description: "Pan de orégano con mozzarella, 150g de carne, salsa de piña con tocino, lechuga, queso cheddar y salsa de la casa.",
         priceBurger: 4.50,
         priceCombo: 5.75,
         image: burguetiImages.hawaiana
@@ -11,7 +11,7 @@ const burgers = [
     {
         id: 2,
         name: "CLÁSICA",
-        description: "Pan de papa, 150g de carne, queso cheddar, tomate, lechuga, pepinillos y salsa de la casa[cite: 15].",
+        description: "Pan de papa, 150g de carne, queso cheddar, tomate, lechuga, pepinillos y salsa de la casa.",
         priceBurger: 3.50,
         priceCombo: 4.75,
         image: burguetiImages.clasica
@@ -19,7 +19,7 @@ const burgers = [
     {
         id: 3,
         name: "BACON HOUSE",
-        description: "Pan de papa, 150g de carne, doble bacon ahumado, queso cheddar, pepinillos y salsas de la casa[cite: 15].",
+        description: "Pan de papa, 150g de carne, doble bacon ahumado, queso cheddar, pepinillos y salsas de la casa.",
         priceBurger: 4.50,
         priceCombo: 5.75,
         image: burguetiImages.bacon
@@ -27,7 +27,7 @@ const burgers = [
     {
         id: 4,
         name: "CRISPY RANCH",
-        description: "Pan de papa, 150g de carne en salsa bbq ahumada, cebolla crispy, queso cheddar, lechuga finamente picada y aderezo ranch[cite: 15].",
+        description: "Pan de papa, 150g de carne en salsa bbq ahumada, cebolla crispy, queso cheddar, lechuga finamente picada y aderezo ranch.",
         priceBurger: 4.50,
         priceCombo: 5.75,
         image: burguetiImages.crispy
@@ -35,7 +35,7 @@ const burgers = [
     {
         id: 5,
         name: "BURGUETI",
-        description: "Pan de papa, 150g de carne, mermelada de tocino, doble queso cheddar y aderezo especial[cite: 15].",
+        description: "Pan de papa, 150g de carne, mermelada de tocino, doble queso cheddar y aderezo especial.",
         priceBurger: 4.50,
         priceCombo: 5.75,
         image: burguetiImages.burgueti,
